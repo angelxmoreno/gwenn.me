@@ -1,26 +1,31 @@
 # gwenn.me
 
-A modern React application built with Vite and TypeScript.
+Personal link-in-bio site for [Gwenniviere](https://gwenn.me) — social links on a single landing page.
+
+Built with Vite, React, TypeScript, Tailwind CSS, and shadcn/ui.
 
 ## Development
 
-Clone the repository and install dependencies:
+Requires [bun](https://bun.sh).
 
 ```sh
-git clone <YOUR_GIT_URL>
+git clone git@github.com:angelxmoreno/gwenn.me.git
 cd gwenn.me
-npm install
-npm run dev
+bun install
+bun run dev
 ```
 
-## Tech Stack
+Other scripts:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```sh
+bun run build   # production build → dist/
+bun run lint    # eslint
+```
+
+## Editing links
+
+Social links live in [src/lib/socialLinks.ts](src/lib/socialLinks.ts) — add, remove, or update a link by editing that array. Site name, description, and analytics are configured in [index.html](index.html).
 
 ## Deployment
 
-This project is configured to deploy automatically to GitHub Pages via GitHub Actions when changes are pushed to the main branch.
+Deploys automatically to GitHub Pages via GitHub Actions when changes are pushed to `main`. The workflow uses bun for install and build.
