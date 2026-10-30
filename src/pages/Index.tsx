@@ -54,7 +54,8 @@ const Index = () => {
                                 key={link.id}
                                 href={link.url}
                                 target="_blank"
-                                rel="noopener noreferrer"
+                                data-umami-event="Link click"
+                                data-umami-event-label={link.name}
                                 className="block group"
                                 onMouseEnter={() => setHoveredLink(link.id)}
                                 onMouseLeave={() => setHoveredLink(null)}
