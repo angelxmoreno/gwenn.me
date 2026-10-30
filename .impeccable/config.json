@@ -1,0 +1,17 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "gradient-text",
+        "value": "*",
+        "files": [
+          "src/pages/Index.tsx"
+        ],
+        "createdAt": "2026-10-30T05:33:49.121Z",
+        "reason": "pre-existing brand design of site owner, present in baseline before this session's edits"
+      }
+    ]
+  }
+}

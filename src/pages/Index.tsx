@@ -1,9 +1,7 @@
-import {useState} from 'react';
 import {Mail} from 'lucide-react';
 import {socialLinks} from "@/lib/socialLinks";
 
 const Index = () => {
-    const [hoveredLink, setHoveredLink] = useState<string | null>(null);
 
 
     return (
@@ -54,10 +52,9 @@ const Index = () => {
                                 key={link.id}
                                 href={link.url}
                                 target="_blank"
-                                rel="noopener noreferrer"
+                                data-umami-event="Link click"
+                                data-umami-event-label={link.name}
                                 className="block group"
-                                onMouseEnter={() => setHoveredLink(link.id)}
-                                onMouseLeave={() => setHoveredLink(null)}
                                 style={{animationDelay: `${index * 100}ms`}}
                             >
                                 <div
@@ -94,8 +91,8 @@ const Index = () => {
                                                 </div>
                                             </div>
 
-                                            {hoveredLink === link.id && (
-                                                <p className="text-gray-300 text-sm mt-2 animate-fade-in">
+                                            {link.description && (
+                                                <p className="text-gray-300 text-sm mt-2 opacity-0 translate-y-1 transition-all duration-300 group-hover:opacity-100 group-hover:translate-y-0 group-focus:opacity-100 group-focus:translate-y-0">
                                                     {link.description}
                                                 </p>
                                             )}
