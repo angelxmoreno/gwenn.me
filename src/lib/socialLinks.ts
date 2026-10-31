@@ -8,7 +8,7 @@ export const socialLinks = [
         url: 'https://instagram.com/autumn_gwenniviere_',
         icon: SiInstagram,
         color: 'from-lime-400 to-emerald-500',
-        // description: 'Behind the scenes & daily moments'
+        description: 'Behind the scenes & daily moments'
     },
     {
         id: 'tiktok',
