@@ -11,7 +11,7 @@ export const socialLinks = [
         description: 'Behind the scenes & daily moments'
     },
     {
-        id: 'tiktok',
+        id: 'tiktok-content',
         name: 'TikTok',
         handle: '@gwenngwenncontent',
         url: 'https://tiktok.com/@gwenngwenncontent',
@@ -20,7 +20,7 @@ export const socialLinks = [
         description: "Gwenn's Content Channel - Music, Vlogs, Etc"
     },
     {
-        id: 'tiktok',
+        id: 'tiktok-personal',
         name: 'TikTok',
         handle: '@xxgwennivierexx',
         url: 'https://tiktok.com/@xxgwennivierexx',
