@@ -53,7 +53,7 @@ const Index = () => {
                                 href={link.url}
                                 target="_blank"
                                 data-umami-event="Link click"
-                                data-umami-event-label={link.name}
+                                data-umami-event-label={link.handle}
                                 className="block group"
                                 style={{animationDelay: `${index * 100}ms`}}
                             >
