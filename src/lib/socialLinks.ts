@@ -37,40 +37,4 @@ export const socialLinks = [
         color: 'from-lime-400 to-emerald-500',
         description: 'Old videos soon to be updated'
     },
-    // {
-    //     id: 'twitter',
-    //     name: 'Twitter',
-    //     handle: '@stellaperforms',
-    //     url: 'https://twitter.com/stellaperforms',
-    //     icon: Twitter,
-    //     color: 'from-green-400 to-emerald-600',
-    //     description: 'Updates & thoughts'
-    // },
-    // {
-    //     id: 'facebook',
-    //     name: 'Facebook',
-    //     handle: 'Stella Performs',
-    //     url: 'https://facebook.com/stellaperforms',
-    //     icon: Facebook,
-    //     color: 'from-lime-500 to-green-700',
-    //     description: 'Events & community'
-    // },
-    // {
-    //     id: 'spotify',
-    //     name: 'Spotify',
-    //     handle: 'Stella',
-    //     url: 'https://open.spotify.com/artist/stella',
-    //     icon: Music,
-    //     color: 'from-green-500 to-green-600',
-    //     description: 'Stream my latest tracks'
-    // },
-    // {
-    //     id: 'booking',
-    //     name: 'Book Me',
-    //     handle: 'Events & Shows',
-    //     url: 'mailto:booking@stellaperforms.com',
-    //     icon: Calendar,
-    //     color: 'from-emerald-500 to-lime-500',
-    //     description: 'Performance inquiries'
-    // }
 ];
